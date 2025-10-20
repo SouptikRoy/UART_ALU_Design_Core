@@ -99,6 +99,8 @@ send_uart_byte(8'h03); // Operand B
 * Ensures all ALU operations are correctly processed and transmitted.
 * Can simulate timing constraints, baud rate mismatches, and edge cases for robust verification.
 
+* ![RTL Schematic](UART_ALU_SCh.PNG)
+
 ---
 
 ## 📊 Waveform Verification
@@ -113,6 +115,7 @@ send_uart_byte(8'h03); // Operand B
    * Control signals (`alu_enable`, `tx_data_valid`) toggle correctly.
 4. Use `$monitor` or waveform viewer to inspect timing and correctness.
 
+![RTL Schematic](ALU_UART.PNG)
 ---
 
 ## 📝 Notes
